@@ -43,8 +43,9 @@ function SingUp() {
           >
             Registrarse
           </Heading>
-          <Input placeholder="Usuario" ></Input>
+          <Input placeholder="Correo" ></Input>
           <Input placeholder="Contraseña" ></Input>
+          <Input placeholder="Confirmar Contraseña" ></Input>
           <Button bg="#450068" color="#ffffff" onClick={() => navigate("/")}>
             Registrarse
           </Button>
